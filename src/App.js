@@ -1,10 +1,9 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Image from './components/image';
-import Navbar from './components/Navbar';
 import Roster from './components/Roster';
 import Creative from './components/Creative';
-import Footer from './components/Footer.jsx';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -12,7 +11,6 @@ function App() {
 return (
   <div className="App">
     <Router>
-      <Navbar />
       <Routes>
         <Route path='/'
           element={<Image />} />
@@ -21,6 +19,7 @@ return (
         <Route path='/creative'
           element={<Creative />} />
       </Routes>
+      <Footer />
     </Router>
   </div>
 );
