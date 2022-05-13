@@ -127,6 +127,7 @@
 .backImg {
   height: 110px;
   width: 200px;
+  padding-right: 28px;
 }
 
 .nav-ul a{
@@ -202,6 +203,7 @@
     .backImg {
       height: 80px;
       width: 120px;
+      padding-right: 12px;
     }
     .image {
       height: 275px;
