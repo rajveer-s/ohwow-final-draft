@@ -8,7 +8,7 @@ const Navbar = () => {
                 <ul className='nav-ul'>
                     <a className='hover-underline-animation' href="/">CREATIVE</a>
                     <img className='backImg' src={backImg} />
-                    <a className='hover-underline-animation' href="/skills">ROASTER</a>
+                    <a className='hover-underline-animation' href="/skills">ROSTER</a>
                 </ul>
             </div>
         </div>
