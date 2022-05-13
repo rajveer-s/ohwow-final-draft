@@ -1,5 +1,6 @@
 import React from 'react'
 import background from '../assets/data/backgroundimg';
+import Navbar from './Navbar';
 
 
 
@@ -8,6 +9,7 @@ const image = () => {
     // const backimg = background[Math.floor(Math.random() * background.length)];
   return (
     <div>
+      <Navbar />
       <div className="container">
       <div className='image'>
     <p>About Us <br /> Wow company is great. We established in 1918. We have been in this buisness for over a 100 years. </p>
