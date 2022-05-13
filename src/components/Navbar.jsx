@@ -6,9 +6,10 @@ const Navbar = () => {
         <div className="container1">
             <div id="navbar">
                 <ul className='nav-ul'>
-                    <a className='hover-underline-animation' href="/">CREATIVE</a>
-                    <img className='backImg' src={backImg} />
-                    <a className='hover-underline-animation' href="/skills">ROSTER</a>
+                    <a className='hover-underline-animation' href="/creative">CREATIVE</a>
+                    <a href="/">
+                    <img className='backImg' src={backImg} /></a>
+                    <a className='hover-underline-animation' href="/roster">ROSTER</a>
                 </ul>
             </div>
         </div>
