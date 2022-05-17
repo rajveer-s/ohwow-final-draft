@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Image from './components/image';
 import Roster from './components/Roster';
 import Creative from './components/Creative';
-import Footer from './components/Footer';
+import Navbar from './components/Navbar';
+
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
 return (
   <div className="App">
     <Router>
+      <Navbar />
       <Routes>
         <Route path='/'
           element={<Image />} />
@@ -19,7 +21,6 @@ return (
         <Route path='/creative'
           element={<Creative />} />
       </Routes>
-      <Footer />
     </Router>
   </div>
 );

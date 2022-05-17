@@ -9,7 +9,6 @@ const image = () => {
     // const backimg = background[Math.floor(Math.random() * background.length)];
   return (
     <div>
-      <Navbar />
       <div className="container">
       <div className="pageLogo">
     <p>OH WOW COMPANY</p>
