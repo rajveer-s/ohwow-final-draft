@@ -1,5 +1,14 @@
-/* GOOGLE FONTS IMPORT */
-@import url('https://fonts.googleapis.com/css2?family=Karma:wght@400;500;600&display=swap');
+/* GOOGLE FONTS IMPORT
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@400;500;600&display=swap'); */
+
+@font-face {
+  font-family: 'costaregular';
+  src: url('../src/assets/costa-webfont.woff2') format('woff2'),
+       url('../src/assets/costa-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 
 a:hover {
   cursor: url('../src/assets/img/bolt.png'), auto;
@@ -22,6 +31,12 @@ body {
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.pageLogo {
+  font-family:'costaregular';
+  font-size: 50px;
+  color: #eab676;
+
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -80,7 +95,7 @@ body {
   background: #fff;
 }
 
-.image {
+/* .image {
   height: 400px;
   width: 400px;
   border-radius: 50%;
@@ -88,7 +103,7 @@ body {
 
   -webkit-animation: spin 2.5s linear infinite;
   animation: spin 2.5s linear infinite;
-}
+} */
 
 @-webkit-keyframes spin {
   0% {
@@ -146,9 +161,9 @@ body {
 .nav-ul a {
   text-decoration: none;
   color: black;
-  font-family: 'Karma', serif;
+  font-family: 'costaregular', serif;
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 #navbar ul {
@@ -204,11 +219,50 @@ body {
   transform-origin: bottom left;
 }
 
-/* Navbar End  */
+  /* Navbar End  */
+
+  /* Roster */
+  .fade-in-text {
+    display: inline-block;
+    font-family:'costaregular';
+    font-size: 100px;
+    color: black;
+    animation: fadeIn linear 4s;
+    -webkit-animation: fadeIn linear 4s;
+    -moz-animation: fadeIn linear 4s;
+    -o-animation: fadeIn linear 4s;
+    -ms-animation: fadeIn linear 4s;
+  }
+  
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
   .rosterTitle{
     height: 100vh;
     width: 100%;
-    font-size: 45px;
+    font-size: 70px;
     font-weight: 500;
     color: #fff;
     opacity: .7;
@@ -216,17 +270,13 @@ body {
 
   }
 
-  /* Navbar End  */
-
-  /* Roster */
-
   .rosterNames {
     display: flex; 
-    justify-content: flex-start;
+    justify-content: flex-end;
     text-decoration: none;
     color: white;
     margin-top: 50px;
-    margin-left: 20px;
+    margin-right: 20px;
     opacity: .7
  
   }
@@ -238,8 +288,8 @@ body {
   }
   .rosterNames ul li {
     list-style: none;
-    margin-top: 10px;
-    font-size: 35px;
+    margin-top: 50px;
+    font-size: 60px;
   }
   
   /* NAVBAR MEDIA  QUERIES*/
@@ -310,4 +360,36 @@ body {
 .list a {
   text-decoration: none;
   color: white;
+}
+
+.fade-in-image {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }

@@ -11,8 +11,8 @@ const image = () => {
     <div>
       <Navbar />
       <div className="container">
-      <div className='image'>
-    <p>About Us <br /> Wow company is great. We established in 1918. We have been in this buisness for over a 100 years. </p>
+      <div className="pageLogo">
+    <p>OH WOW COMPANY</p>
 </div>
       </div>
         {/* {background.map((backImg, index) => {
