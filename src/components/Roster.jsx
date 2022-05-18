@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import Piano from "../assets/img/thompianotwo.mp4";
 
 const Roster = () => {
@@ -9,34 +10,20 @@ const Roster = () => {
         Your browser does not support HTML5 video.
       </video>
       <div className="rosterTitle fade-in-text">
-        ROSTER
+        <h3>ROSTER</h3>
         <div className="rosterNames fade-in-text">
           <ul>
             <li>
-              <a href="https://www.instagram.com/joshysoul/" target="_blank">
-                JOSHY SOUL
-              </a>
+              <Link to='/joshysoul' className='menu-bars'>JOSHY SOUL</Link>
             </li>
             <li>
-              <a href="https://www.instagram.com/thom.ko_/" target="_blank">
-                THOM.KO
-              </a>
+            <Link to='/thomko' className='menu-bars'>THOM.KO</Link>
             </li>
             <li>
-              <a
-                href="https://www.instagram.com/vhscollection/"
-                target="_blank"
-              >
-                VHS COLLECTION
-              </a>
+            <Link to='/vhscollection' className='menu-bars'>VHS COLLECTION</Link>
             </li>
             <li>
-              <a
-                href="https://www.instagram.com/moderneyesofficial/"
-                target="_blank"
-              >
-                MODERN EYES
-              </a>
+            <Link to='/moderneyes' className='menu-bars'>MODERN EYES</Link>
             </li>
           </ul>
         </div>
