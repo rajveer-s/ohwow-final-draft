@@ -1,4 +1,37 @@
-.artistImage img {
+.profileContainer {
+    color: black;
+    height: 100vh;
+}
+.artistDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:15rem 20px;
+    color: black !important;
+    font-size: 30px;
+}
+.artistDiv h1 {
+    margin: 0 0 3rem 0;
+}
+
+.backbutton {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.artistImage {
+    
+    float: left;
     height: 400px;
     width: 600px;
+}
+
+.artistDiv p {
+    line-height: 40px;
+    padding-left: 50px;
+}
+
+.artistInfo {
+    
 }
