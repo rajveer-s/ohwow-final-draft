@@ -12,7 +12,7 @@ const Typerwriter = () => {
 
   return (
     <div className='loopdiv' style={{background: 'black', height: '100vh'}}>
-      <span style={{ color: 'white', fontSize: '3rem' }}>{text}</span>
+      <span style={{ color: 'white', fontSize: '3rem' }}>{text} <Cursor /></span>
     </div>
   )
 }
