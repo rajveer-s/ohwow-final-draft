@@ -20,7 +20,7 @@ const Joshysoul = () => {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim consequuntur expedita sit, aliquam delectus tenetur asperiores alias officia voluptatem magni labore ad aliquid repudiandae repellendus debitis, eligendi praesentium maiores velit?</p>
               <a href="https://www.instagram.com/thom.ko_/" target="_blank"><FaInstagram color='black' size='2em' style={{margin: '2rem'}}/></a>
               <a href="https://www.facebook.com" target="_blank"><FaFacebookSquare color='black' size='2em' style={{margin: '2rem'}} /></a> 
-              <a href="https://open.spotify.com/artist/3dWWHuyPD2YOd7B8geKidf" target="_blank"><FaSpotify color='black' size='2em' style={{margin: '2rem'}} /></a>
+              <a href="https://open.spotify.com/artist/077rXfQQLRyXfLdwGckDsg?si=Hq4HCVZOS6WbUtXtubGAlw" target="_blank"><FaSpotify color='black' size='2em' style={{margin: '2rem'}} /></a>
         </div> 
 
         </div>
