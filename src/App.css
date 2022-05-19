@@ -531,6 +531,14 @@ body {
 }
 
 span.styles-module_blinkingCursor__288eE {
-  font-size: 5rem;
-  color: red;
+  font-size: 2rem;
+  color: #fff;
 }
+
+.loopdiv{
+  display: grid;
+  place-items: center;
+  cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4424790/cursors-edge.png"),
+    auto;
+}
+
