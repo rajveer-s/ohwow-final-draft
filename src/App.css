@@ -238,7 +238,6 @@ body {
   .navbar {
     position: absolute;
     top: 20px;
-    width: 100%;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -360,6 +359,7 @@ body {
 
   .rosterTitle h3 {
     padding-top: 5rem;
+    color: #fff;
   }
 
   .rosterNames {

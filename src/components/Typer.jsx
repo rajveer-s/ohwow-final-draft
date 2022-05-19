@@ -4,7 +4,7 @@ import { useTypewriter, Cursor} from 'react-simple-typewriter'
 const Typerwriter = () => {
 
   const {text} = useTypewriter({
-    words: ['Uh oh ... 404 Page not found' ],
+    words: ['Uh oh ... 404, Page not found.' ],
     delaySpeed: 2000,
     deleteSpeed: 90,
     typeSpeed: 100
