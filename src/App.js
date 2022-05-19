@@ -1,6 +1,6 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Image from './components/image';
+import Image from './components/Image';
 import Roster from './components/Roster';
 import Creative from './components/Creative';
 import Navbar from './components/Navbar';
