@@ -1,7 +1,7 @@
 import React from 'react'
 import { useTypewriter, Cursor} from 'react-simple-typewriter'
 
-const Typerwriter = () => {
+const InvalidPage = () => {
 
   const {text} = useTypewriter({
     words: ['Uh oh ... 404, Page not found.' ],
@@ -17,4 +17,4 @@ const Typerwriter = () => {
   )
 }
 
-export default Typerwriter
+export default InvalidPage

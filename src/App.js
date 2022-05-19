@@ -6,8 +6,7 @@ import Creative from './components/Creative';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import JoshySoul from './components/JoshySoul';
-import Typerwriter from './components/Typer';
-import { InvalidPage } from './components/404';
+import InvalidPage  from './components/Invalid404';
 import Thomko from './components/Thomko';
 
 function App() {
@@ -29,8 +28,6 @@ return (
           element={<JoshySoul />} />
              <Route path='/thomko'
           element={<Thomko />} />
-          <Route path='/loop'
-          element={<Typerwriter />} />
           <Route path='*'
           element={<InvalidPage />} />
       </Routes>
