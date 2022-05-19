@@ -11,7 +11,7 @@ const Thomko = () => {
         <div className="backbutton">
             <Link to="/roster"><img src={backbutton} alt="back button img" /></Link>
         </div>
-        <div className="artistDiv">
+        <div className="artistDiv fade-in-text">
             
             <img className= "artistImage" src={thomprofile} alt="artist image" />
             <div className="artistInfo">

@@ -3,6 +3,42 @@
     height: 100vh;
     font-family:'costaregular';
 }
+.fade-in-text {
+    font-family:'costaregular';
+    font-size: 100px;
+    color: black;
+    animation: fadeIn linear 2s;
+    -webkit-animation: fadeIn linear 2s;
+    -moz-animation: fadeIn linear 2s;
+    -o-animation: fadeIn linear 2s;
+    -ms-animation: fadeIn linear 2s;
+  }
+  
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
 .artistDiv {
     display: flex;
     justify-content: center;
@@ -36,6 +72,3 @@
     padding-left: 50px;
 }
 
-.artistInfo {
-    
-}

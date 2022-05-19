@@ -11,13 +11,13 @@ const image = () => {
     // const backimg = background[Math.floor(Math.random() * background.length)];
   return (
     <div>
-      <img className='backgroundimg' src={c} />
-      <img className='backgroundimg2' src={c2} />
+      <img className='backgroundimg slide-in-left' src={c} />
+      <img className='backgroundimg2 slide-in-right' src={c2} />
       <div className="container">
         
-      <div className="pageLogo">
+      <div className="pageLogo tracking-in-expand-fwd-bottom">
     <p>OH WOW COMPANY</p>
-</div>
+      </div>
       </div>
         {/* {background.map((backImg, index) => {
             if (index < 1) {
