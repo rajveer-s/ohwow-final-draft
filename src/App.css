@@ -411,15 +411,6 @@ body {
       width: 120px;
       padding-right: 12px;
     }
-    .image {
-      height: 275px;
-      width: 275px;
-      background: url(https://source.unsplash.com/275x275/?coding);
-    }
-    .image p {
-      font-size: 20px;
-      padding: 2rem;
-    }
 
     .rosterTitle{
       font-size: 30px;
@@ -520,15 +511,15 @@ body {
   width: 100px;
   position:fixed;
   top: 25%;
-  left: 25%;
+  left: 15%;
 }
 
 .backgroundimg2{
-  height: 200px;
-  width: 200px;
-  position:absolute;
+  height: 100px;
+  width: 100px;
+  position:fixed;
   bottom: 25%;
-  right: 25%;
+  right: 15%;
 }
 
 

@@ -17,9 +17,6 @@ const Image = () => {
      window.reload = {backimg, backimg2}
   }, []);
 
-
-
-    console.log (backimg);
   return (
     <div>
       <img className='backgroundimg slide-in-left' src={backimg.img} />
