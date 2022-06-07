@@ -1,25 +1,35 @@
-import React from 'react'
-import Piano from '../assets/img/thompiano.mp4'
+import React from "react";
+import { Link } from 'react-router-dom';
+import Piano from "../assets/img/thompianotwo.mp4";
 
 const Roster = () => {
   return (
     <div>
-    <video autoPlay muted loop id="myVideo">
-  <source src={Piano} type="video/mp4"/>
-  Your browser does not support HTML5 video.
-</video>
-    <div className="rosterTitle">Roster
-    <div className="rosterNames">
-        <ul>
-            <li><a href='https://www.instagram.com/joshysoul/'target='_blank'>Joshy Soul</a></li>
-            <li><a href='https://www.instagram.com/vhscollection/'>VHS Collection</a></li>
-            <li><a href='https://www.instagram.com/thom.ko_/'>thom-ko</a></li>
-            <li><a href='https://www.instagram.com/moderneyesofficial/'>Modern Eyes</a></li>
-        </ul>
+      <video autoPlay muted loop id="myVideo" className="fade-in-image">
+        <source src={Piano} type="video/mp4" />
+        Your browser does not support HTML5 video.
+      </video>
+      <div className="rosterTitle fade-in-text">
+        <h3>ROSTER</h3>
+        <div className="rosterNames fade-in-text">
+          <ul>
+            <li>
+              <Link to='/joshysoul' className='menu-bars'>JOSHY SOUL</Link>
+            </li>
+            <li>
+            <Link to='/thomko' className='menu-bars'>THOM.KO</Link>
+            </li>
+            <li>
+            <Link to='/vhscollection' className='menu-bars'>VHS COLLECTION</Link>
+            </li>
+            <li>
+            <Link to='/moderneyes' className='menu-bars'>MODERN EYES</Link>
+            </li>
+          </ul>
         </div>
-        </div>
-        </div>
-  )
-}
+      </div>
+    </div>
+  );
+};
 
-export default Roster
+export default Roster;

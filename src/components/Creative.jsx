@@ -10,10 +10,18 @@ const Creative = () => {
         />
         Your browser does not support the video tag.
       </video>
-      <div className="list">
-        <a href='https://www.google.com'><h1>M3F</h1></a>
-        
-        <a href='https://www.facebook.com'><h3>PTF GROWS</h3></a>
+      <div className="rosterTitle fade-in-text">
+        <h3>CREATIVE</h3>
+        <div className="rosterNames fade-in-text">
+          <ul>
+            <li className='menu-bars'> M3F 
+            </li>
+            <li className='menu-bars'> PTS GROWS
+            </li>
+            <li className='menu-bars'> RANCH RIDER
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   )

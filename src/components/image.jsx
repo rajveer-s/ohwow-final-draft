@@ -1,28 +1,34 @@
-import React from 'react'
-import background from '../assets/data/backgroundimg';
+import React, { useEffect } from 'react'
 import Navbar from './Navbar';
+import c from '../assets/img/bolt.png'
+import c2 from '../assets/img/bg.png'
+import background from '../assets/data/backgroundimg';
 
 
 
-const image = () => {
 
-    // const backimg = background[Math.floor(Math.random() * background.length)];
+const Image = () => {
+  
+  const backimg = background[Math.floor(Math.random() * background.length)]
+
+  const backimg2 = background[Math.floor(Math.random() * background.length)]
+ 
+  useEffect(() => { 
+     window.reload = {backimg, backimg2}
+  }, []);
+
   return (
     <div>
-      <Navbar />
+      <img className='backgroundimg slide-in-left' src={backimg.img} />
+      <img className='backgroundimg2 slide-in-right' src={backimg2.img} />
       <div className="container">
-      <div className='image'>
-    <p>About Us <br /> Wow company is great. We established in 1918. We have been in this buisness for over a 100 years. </p>
-</div>
+        
+      <div className="pageLogo tracking-in-expand-fwd-bottom">
+    <p>OH WOW COMPANY</p>
       </div>
-        {/* {background.map((backImg, index) => {
-            if (index < 1) {
-                return;    
-            }
-        return <img src={backImg.img} />
-      })} */}
+      </div>
       </div>
   )
 }
 
-export default image
+export default Image
