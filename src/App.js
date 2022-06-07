@@ -8,6 +8,8 @@ import About from './components/About';
 import JoshySoul from './components/JoshySoul';
 import InvalidPage  from './components/Invalid404';
 import Thomko from './components/Thomko';
+import Joshyfigure from './components/Joshyfigure.jsx';
+import Yinyang from './components/Yinyang.jsx';
 
 function App() {
 
@@ -18,6 +20,8 @@ return (
       <Routes>
         <Route path='/'
           element={<Image />} />
+           <Route path='/yin'
+          element={<Yinyang />} />
         <Route path='/roster'
           element={<Roster />} />
         <Route path='/creative'
@@ -26,8 +30,10 @@ return (
           element={<About />} />
           <Route path='/joshysoul'
           element={<JoshySoul />} />
-             <Route path='/thomko'
+            <Route path='/thomko'
           element={<Thomko />} />
+          <Route path='/joshyfigure'
+          element={<Joshyfigure />} />
           <Route path='*'
           element={<InvalidPage />} />
       </Routes>
