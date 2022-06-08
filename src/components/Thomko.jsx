@@ -10,7 +10,7 @@ const Thomko = () => {
   return (
     <div className="profileContainer"> 
         <div className="backbutton">
-            <Link to="/roster"><img src={backbutton} alt="back button img" /></Link>
+            <Link to="/roster"><img src={backbutton} alt="back button" /></Link>
         </div>
         <div className="artistDiv fade-in-text">
             
