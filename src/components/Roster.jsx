@@ -19,12 +19,6 @@ const Roster = () => {
             <li>
             <Link to='/thomko' className='menu-bars'>THOM.KO</Link>
             </li>
-            <li>
-            <Link to='/vhscollection' className='menu-bars'>VHS COLLECTION</Link>
-            </li>
-            <li>
-            <Link to='/moderneyes' className='menu-bars'>MODERN EYES</Link>
-            </li>
           </ul>
         </div>
       </div>
