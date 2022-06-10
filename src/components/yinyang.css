@@ -100,7 +100,7 @@
 .backgroundimg{
   height: 100px;
   width: 100px;
-  position:fixed;
+  position:absolute;
   top: 25%;
   left: 30%;
   z-index: 999999999;
@@ -109,23 +109,24 @@
 .backgroundimg2{
   height: 100px;
   width: 100px;
-  position:fixed;
+  position:absolute;
   bottom: 25%;
   right: 30%;
   z-index: 999999999;
 }
 
-.bottombox:before, .bottombox:after {
+.bottombox:before {
   position: absolute;
   bottom: -8rem;
   content: '';
   width: 50%;
   height: 25%;
-  z-index: -1
-}
-.bottombox:before {
+  z-index: -1;
   left: 0;
   background-color: #A7C7E7;
+}
+.bottombox:after {
+  position: absolute;
 }
 
 @keyframes spin {
