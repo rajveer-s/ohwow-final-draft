@@ -20,6 +20,8 @@ const Creative = () => {
             </li>
             <li className='menu-bars'> RANCH RIDER
             </li>
+            <li className='menu-bars'> ASSISTANTS VS. AGENTS
+            </li>
           </ul>
         </div>
       </div>

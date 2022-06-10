@@ -15,7 +15,7 @@ a:hover {
 }
 
 body {
-  cursor: url('../src/assets/img/bolt-40.png'), auto;
+  cursor: url('../src/assets/img/bolt-64.png'), auto;
 }
 
 * {
@@ -33,7 +33,7 @@ body {
   pointer-events: none;
 }
 .pageLogo {
-  z-index: 9;
+  z-index: 9999999999999999;
   font-family:'costaregular';
   font-size: 50px;
   color: #eab676;
@@ -506,21 +506,7 @@ body {
 }
 
 
-.backgroundimg{
-  height: 100px;
-  width: 100px;
-  position:fixed;
-  top: 25%;
-  left: 15%;
-}
 
-.backgroundimg2{
-  height: 100px;
-  width: 100px;
-  position:fixed;
-  bottom: 25%;
-  right: 15%;
-}
 
 
 /* Loop 404 page  */
