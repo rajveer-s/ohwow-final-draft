@@ -91,10 +91,11 @@
 .logo23 {
   z-index: 9999999999999;
   font-size: 3rem;
-  color: red;
   position: absolute;
   top: 50%;
-  right: 35%;
+  right: 30%;
+  color: #eab676;
+  font-family:'costaregular';
 
 }
 .backgroundimg{
