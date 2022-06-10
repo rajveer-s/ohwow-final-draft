@@ -134,3 +134,48 @@
     transform: rotate(360deg);
  }
 }
+
+
+/* media quieries  */
+
+@media only screen and (max-width: 1200px){
+  /*Tablets [601px -> 1200px]*/
+  .container12 {
+    width: 750px;
+    height: 750px;
+  }
+}
+@media only screen and (max-width: 900px){
+/*Big smartphones [426px -> 600px]*/
+
+.container12 {
+  width: 600px;
+  height: 600px;
+}
+}
+@media only screen and (max-width: 820px){
+
+  .container12 {
+    width: 500px;
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+
+  .container12 {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 374px){
+
+  .container12 {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+
+/* media quieries  End */
